@@ -1,0 +1,55 @@
+body {
+	background-color: #111111;
+	
+}
+
+
+img {
+	width: 100%; height: auto;
+}
+
+p{
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 16px;
+	margin-top: 200px;
+	margin-left: 120px;
+	font-weight: 100;
+	vertical-align: baseline;
+	letter-spacing: 2px;
+
+}
+
+.quote p {
+
+	font-family: 'Droid Serif', serif;
+	color: white;
+	font-size: 40px;
+	margin-top: 180px;
+	margin-left: 120px;
+	line-height: 1.0;
+	font-weight: 400;
+	
+}
+
+.social a {
+	text-decoration: none;
+}
+
+.social a:hover {
+	text-decoration: none;
+	color: #BB2253;
+}
+
+.social  {
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	margin-top: 60px;
+	margin-left: 120px;
+	font-weight: 100;
+	vertical-align: baseline;
+	letter-spacing: 3px;
+	word-spacing: 3px;
+	
+	
+}
