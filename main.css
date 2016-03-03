@@ -3,10 +3,27 @@ body {
 	
 }
 
+a {
+	text-decoration: none;
+}
+
 
 img {
 	width: 100%; height: auto;
 }
+
+figure {
+	position: relative;
+	margin: 0;
+}
+
+figcaption {
+	position: absolute;
+	bottom: 10px;
+	right: 30px;
+
+}
+
 
 p{
 	font-family: 'Roboto', sans-serif;
@@ -30,6 +47,15 @@ p{
 	line-height: 1.0;
 	font-weight: 400;
 	
+}
+
+.aviso p {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 16px;
+	margin-top: 20px;
+	font-weight: 100;
+
 }
 
 .social a {
