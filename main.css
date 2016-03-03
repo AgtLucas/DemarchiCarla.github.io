@@ -81,13 +81,13 @@ p{
 
 .social  {
 	font-family: 'Roboto', sans-serif;
-	font-size: 12px;
+	font-size: 13px;
 	margin-top: 60px;
 	margin-left: 120px;
 	font-weight: 100;
 	vertical-align: baseline;
-	letter-spacing: 3px;
-	word-spacing: 4px;
+	letter-spacing: 1px;
+	word-spacing: 5px;
 	
 	
 }
