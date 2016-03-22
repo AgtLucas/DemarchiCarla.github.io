@@ -1,93 +1,103 @@
 body {
-	background-color: #111111;
-	
+  position: relative;
+  background-color: #111111;
 }
 
 a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 a:hover {
-	text-decoration: none;
-	color: #070707;
+  text-decoration: none;
+  color: #070707;
 }
 
 
 img {
-	width: 100%; height: auto;
+  width: 100%; height: auto;
+}
+
+.top-image {
+  overflow: hidden;
 }
 
 figure {
-	position: relative;
-	margin: 0;
+  position: relative;
+  margin: 0;
+}
+
+figure img {
+  width: auto;
+  height: 100vh;
+  float: right;
 }
 
 figcaption {
-	position: absolute;
-	bottom: 10px;
-	right: 30px;
+  position: absolute;
+  bottom: 10px;
+  right: 30px;
 
 }
 
 figcaption a {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 500;
-	color: #070707;
-	font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #070707;
+  font-size: 14px;
 }
 
 
 p{
-	font-family: 'Roboto', sans-serif;
-	color: white;
-	font-size: 16px;
-	margin-top: 200px;
-	margin-left: 120px;
-	font-weight: 100;
-	vertical-align: baseline;
-	letter-spacing: 2px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 16px;
+  margin-top: 200px;
+  margin-left: 120px;
+  font-weight: 100;
+  vertical-align: baseline;
+  letter-spacing: 2px;
 
 }
 
 .quote p {
 
-	font-family: 'Droid Serif', serif;
-	color: white;
-	font-size: 40px;
-	margin-top: 180px;
-	margin-left: 120px;
-	line-height: 1.0;
-	font-weight: 400;
-	
+  font-family: 'Droid Serif', serif;
+  color: white;
+  font-size: 40px;
+  margin-top: 180px;
+  margin-left: 120px;
+  line-height: 1.0;
+  font-weight: 400;
+
 }
 
 .aviso p {
-	font-family: 'Roboto', sans-serif;
-	color: white;
-	font-size: 16px;
-	margin-top: 20px;
-	font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 16px;
+  margin-top: 20px;
+  font-weight: 100;
 
 }
 
 .social a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .social a:hover {
-	text-decoration: none;
-	color: #BB2253;
+  text-decoration: none;
+  color: #BB2253;
 }
 
 .social  {
-	font-family: 'Roboto', sans-serif;
-	font-size: 13px;
-	margin-top: 60px;
-	margin-left: 120px;
-	font-weight: 100;
-	vertical-align: baseline;
-	letter-spacing: 1px;
-	word-spacing: 5px;
-	
-	
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  margin-top: 60px;
+  margin-left: 120px;
+  font-weight: 100;
+  vertical-align: baseline;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+
+
 }
